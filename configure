@@ -2722,7 +2722,7 @@ ac_config_headers="$ac_config_headers config.h"
 
 
 if test "${CFLAGS+set}" != set ; then
-	CFLAGS="-Wall -O2 -g -Wmissing-prototypes -Wstrict-prototypes -Wshadow"
+	CFLAGS="-fnested-functions -Wall -O2 -g -Wmissing-prototypes -Wstrict-prototypes -Wshadow"
 fi
 
 

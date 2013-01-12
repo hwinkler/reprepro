@@ -9,7 +9,7 @@ AM_INIT_AUTOMAKE([-Wall -Werror -Wno-portability])
 AM_CONFIG_HEADER(config.h)
 
 if test "${CFLAGS+set}" != set ; then
-	CFLAGS="-Wall -O2 -g -Wmissing-prototypes -Wstrict-prototypes -Wshadow"
+	CFLAGS="-fnested-functions -Wall -O2 -g -Wmissing-prototypes -Wstrict-prototypes -Wshadow"
 fi
 
 AM_MAINTAINER_MODE
