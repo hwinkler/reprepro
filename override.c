@@ -37,6 +37,10 @@
 #include "override.h"
 #include "configparser.h"
 
+#ifdef __APPLE__
+void tdestroy(void *root, void (*free_node)(void *nodep)) { }
+#endif
+
 struct overridedata {
 	struct strlist fields;
 };
