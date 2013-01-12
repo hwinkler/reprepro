@@ -25,6 +25,7 @@
 #endif
 #include <string.h>
 #include <ctype.h>
+#include <time.h>
 #include "error.h"
 #include "mprintf.h"
 #include "chunks.h"
