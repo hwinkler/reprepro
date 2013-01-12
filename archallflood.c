@@ -23,6 +23,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <assert.h>
+#include <time.h>
 
 #include "error.h"
 #include "strlist.h"
