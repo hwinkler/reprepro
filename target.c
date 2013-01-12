@@ -24,7 +24,9 @@
 #include <strings.h>
 #include <stdio.h>
 #include <stdlib.h>
+#ifdef HAVE_MALLOC_H
 #include <malloc.h>
+#endif
 #include "error.h"
 #include "ignore.h"
 #include "mprintf.h"

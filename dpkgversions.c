@@ -26,7 +26,9 @@
 
 #include <stdlib.h>
 #include <stdio.h>
+#ifdef HAVE_MALLOC_H
 #include <malloc.h>
+#endif
 #include <string.h>
 
 #include <ctype.h>

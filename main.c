@@ -25,7 +25,9 @@
 #include <getopt.h>
 #include <string.h>
 #include <strings.h>
+#ifdef HAVE_MALLOC_H
 #include <malloc.h>
+#endif
 #include <fcntl.h>
 #include <signal.h>
 #include "error.h"

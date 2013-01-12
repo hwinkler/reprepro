@@ -22,7 +22,9 @@
 #include <string.h>
 #include <strings.h>
 #include <stdlib.h>
+#ifdef HAVE_MALLOC_H
 #include <malloc.h>
+#endif
 #include <stdio.h>
 #include "error.h"
 #include "ignore.h"

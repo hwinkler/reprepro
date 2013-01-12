@@ -21,7 +21,9 @@
 #include <stdint.h>
 #include <stdlib.h>
 #include <sys/types.h>
+#ifdef HAVE_MALLOC_H
 #include <malloc.h>
+#endif
 #include <string.h>
 #include <stdio.h>
 #include <assert.h>

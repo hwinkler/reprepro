@@ -55,7 +55,9 @@
 #include <stdlib.h>
 #include <stdarg.h>
 #include <unistd.h>
+#ifdef HAVE_MALLOC_H
 #include <malloc.h>
+#endif
 #include <string.h>
 #include <ctype.h>
 #include <fcntl.h>

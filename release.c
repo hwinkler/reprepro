@@ -24,7 +24,9 @@
 #include <sys/stat.h>
 #include <unistd.h>
 #include <stdlib.h>
+#ifdef HAVE_MALLOC_H
 #include <malloc.h>
+#endif
 #include <string.h>
 #include <ctype.h>
 #include <fcntl.h>

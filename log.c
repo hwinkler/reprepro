@@ -31,7 +31,9 @@
 #include <signal.h>
 #include <stdio.h>
 #include <time.h>
+#ifdef HAVE_MALLOC_H
 #include <malloc.h>
+#endif
 #include "error.h"
 #include "strlist.h"
 #include "atoms.h"

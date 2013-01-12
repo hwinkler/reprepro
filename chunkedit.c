@@ -18,7 +18,9 @@
 #include <sys/types.h>
 #include <errno.h>
 #include <stdlib.h>
+#ifdef HAVE_MALLOC_H
 #include <malloc.h>
+#endif
 #include <string.h>
 #include <stdio.h>
 #include <stdarg.h>

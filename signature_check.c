@@ -23,7 +23,9 @@
 #include <ctype.h>
 #include <time.h>
 #include <string.h>
+#ifdef HAVE_MALLOC_H
 #include <malloc.h>
+#endif
 #include <fcntl.h>
 #include "signature_p.h"
 #include "ignore.h"

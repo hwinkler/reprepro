@@ -24,7 +24,9 @@
 #include <stdio.h>
 #include <getopt.h>
 #include <string.h>
+#ifdef HAVE_MALLOC_H
 #include <malloc.h>
+#endif
 #include "error.h"
 #include "filecntl.h"
 #include "readtextfile.h"
